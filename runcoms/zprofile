@@ -32,6 +32,15 @@ fi
 #
 # Paths
 #
+# Global stuff
+export PATH=$HOME/bin:$PATH
+export EDITOR=vim
+
+# Anaconda
+export PATH=$HOME/anaconda/bin:$PATH
+
+# Homebrew stuff
+export PATH=$HOME/homebrew/bin:$HOME/bin:$PATH
 
 # Ensure path arrays do not contain duplicates.
 typeset -gU cdpath fpath mailpath path
